@@ -148,7 +148,7 @@ async def resume() -> str:
     """
     # TODO: Implement resume fetching logic
     try:
-        path = Path("resume.md")  # Or "my_resume.txt"
+        path = Path("Resume.md")  # Or "my_resume.txt"
         resume_text = path.read_text(encoding="utf-8")
         return resume_text
     except Exception as e:
