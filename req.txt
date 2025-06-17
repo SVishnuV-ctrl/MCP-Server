@@ -4,3 +4,4 @@ readabilipy
 httpx
 openai
 pydantic
+fastapi
